@@ -1,8 +1,28 @@
 aid: healint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/healint.png
 name: Healint
-description: 'Healint is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Healint is a Singapore-headquartered digital health company best known for
+  Migraine Buddy, the world''s largest migraine and headache tracking and research
+  platform, used by more than three million people to log attacks, symptoms, triggers,
+  medications, and treatment outcomes. The company applies machine learning, mobile
+  sensor technologies, and analytics to help people manage migraine and other neurological
+  conditions, and to generate real-world evidence for clinicians, researchers, and
+  pharmaceutical partners. Healint and Migraine Buddy are now part of Aptar Digital
+  Health, whose regulated companion apps, patient-support software, and drug-delivery
+  platforms operate across more than 120 countries on HIPAA-compliant infrastructure.
+  Healint does not currently publish a public developer API, SDK, or developer portal;
+  this profile tracks its identity and public web surface in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/healint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +30,21 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: 'Healint / Migraine Buddy is now part of Aptar Digital Health; healint.com 307-redirects
+  to aptardigitalhealth.com. No public developer API surface found as of 2026-07-19.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Digital Health
+- Migraine
+- Neurology
+- Mobile App
+- Patient Engagement
+- Real-World Evidence
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,28 @@ maintainers:
 common:
 - type: Website
   url: https://healint.com/
+- type: Blog
+  url: https://aptardigitalhealth.com/about-us/news/
+- type: Support
+  url: https://aptardigitalhealth.com/contact-us/
+- type: TermsOfService
+  url: https://aptardigitalhealth.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://aptardigitalhealth.com/privacy-policy/
+- type: Careers
+  url: https://aptardigitalhealth.com/about-us/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aptardigitalhealth
+- type: Product
+  url: https://migrainebuddy.com/
+- type: iOSApp
+  url: https://apps.apple.com/us/app/migraine-buddy-track-headache/id975074413
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=com.healint.migraineapp
+- type: DomainSecurity
+  url: security/healint-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
