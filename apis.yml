@@ -32,7 +32,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-note: 'Healint / Migraine Buddy is now part of Aptar Digital Health; healint.com 307-redirects
   to aptardigitalhealth.com. No public developer API surface found as of 2026-07-19.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
